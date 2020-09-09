@@ -31,7 +31,7 @@ function Header() {
         <div className='headerBasket'>
           <ShoppingBasketIcon className='shopingBasket' />
           <span className='value'>5</span>
-          {/* number */}
+          
         </div>
       </div>
     </div>
