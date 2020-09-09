@@ -1,5 +1,6 @@
 import React from 'react'
 import SearchIcon from '@material-ui/icons/Search'
+import ShoppingBasketIcon from '@material-ui/icons/ShoppingBasket'
 import './header.css'
 function Header() {
   return (
@@ -27,8 +28,9 @@ function Header() {
           <span className='headeroptionone'>Your</span>
           <span className='headeroptiontwo'>Prime</span>
         </div>
-        <div className='header_navoption'>
-          {/* icon */}
+        <div className='headerBasket'>
+          <ShoppingBasketIcon className='shopingBasket' />
+          <span className='value'>5</span>
           {/* number */}
         </div>
       </div>

@@ -11,21 +11,79 @@
 .header_logo {
     width: 100px;
     object-fit: contain;
-    margin: 0 20px;
+    margin: 0 30px;
     margin-top: 10px;
+    margin-bottom: 10px;
     height: 40px;
+    border-radius: 25px;
+
 }
 
 .header_search {
     display: flex;
     flex: 100;
     align-items: center;
-    border-radius: 50px;
-    
+    border-radius: 500px;
+
+}
+
+.header_search_input {
+    height: 12px;
+    padding: 10px;
+    border: none;
+    width: 100%;
+    border-radius: 25px;
 }
 
 .header_searchIcon {
     padding: 5px;
     height: 22px !important;
-    background-color: rgb(214, 226, 43);
+    background-color:goldenrod;
+    border-radius: 25px;
+    margin-left: 10px;
+
+}
+
+.header_nav {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.header_navoption {
+    display: flex;
+    flex-direction: column;
+    color: ivory;
+    margin-left: 10px;
+    margin-right: 10px;
+
+
+}
+
+.headeroptionone {
+    font-size: 10px;
+}
+
+.headeroptiontwo {
+    font-size: 19px;
+    font-weight: 19px;
+}
+
+.headerBasket {
+    color: ivory;
+    justify-items: center;
+    padding-top: 6px;
+    width: 50px;
+}
+
+.shopingBasket {
+    color: gold;
+    margin-right: 5px;
+
+}
+
+.value {
+    color: goldenrod;
+    /* margin-left: 5px; */
+    margin-top: 5px;
+    justify-items: center;
 }
