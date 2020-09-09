@@ -12,6 +12,8 @@ function Header() {
         <input className='header_search_input' />
 
         {/* icon */}
+
+        
       </div>
       <div className='header_nav'>
         <div className='header_navoption'>
