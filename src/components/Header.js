@@ -12,6 +12,7 @@ function Header() {
       />
       <div className='header_search'>
         <input className='header_search_input' type='text' />
+        
 
         <SearchIcon className='header_searchIcon' />
       </div>
@@ -31,7 +32,6 @@ function Header() {
         <div className='headerBasket'>
           <ShoppingBasketIcon className='shopingBasket' />
           <span className='value'>5</span>
-          
         </div>
       </div>
     </div>

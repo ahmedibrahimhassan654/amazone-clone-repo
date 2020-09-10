@@ -1,5 +1,6 @@
 import React from 'react'
 import './home.css'
+import Product from './../products/Product'
 function Home() {
   return (
     <div className='home'>
@@ -10,15 +11,22 @@ function Home() {
           alt='headerImage'
         />
         <div className='homeRow'>
-          {/* <Product />
-          <Product/>
-          <Product/> */}
+          <Product 
+          name='مجموعه ادوات للسياره'
+          title='دائما ستحتاج هذا المنتج'
+          price={453.4}
+          rate={3}
+
+          />
+          <Product />
         </div>
-        <div className='homeRow'>{/* <Product />
-          <Product /> */}</div>
         <div className='homeRow'>
-          {/* <Product/>
-           */}
+          <Product />
+          <Product />
+          <Product />
+        </div>
+        <div className='homeRow'>
+          <Product />
         </div>
       </div>
     </div>
