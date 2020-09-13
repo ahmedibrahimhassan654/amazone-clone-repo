@@ -11,12 +11,12 @@ function Home() {
           alt='headerImage'
         />
         <div className='homeRow'>
-          <Product 
-          name='مجموعه ادوات للسياره'
-          title='دائما ستحتاج هذا المنتج'
-          price={453.4}
-          rate={3}
-
+          <Product
+            name='مجموعه ادوات للسياره'
+            title='دائما ستحتاج هذا المنتج'
+            price={453.4}
+            rate={3}
+            image='https://img.freepik.com/free-vector/car-service-center-accessories-composition_98292-7431.jpg?size=338&ext=jpg&ga=GA1.2.2127651176.1599598800'
           />
           <Product />
         </div>
