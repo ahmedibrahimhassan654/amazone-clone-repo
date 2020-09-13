@@ -20,7 +20,7 @@
 
 .product_name {
     float: left;
-    color:yellowgreen;
+    color: yellowgreen;
 }
 
 .product_info {
@@ -37,14 +37,14 @@
 }
 
 .product_button {
-    background: rgb(198, 210, 30);
-    border: 1px solid;
+    background: gold;
+    border: 5px solid black;
     border-radius: 25%;
-    box-sizing: initial;
+ 
     margin-top: 10px;
     border-color: lemonchiffon;
     color: indigo;
-
+    height: fit-content
 }
 
 .rate_product {

@@ -1,7 +1,7 @@
 import React from 'react'
 import StarBorderIcon from '@material-ui/icons/StarBorder'
 import './product.css'
-function Product({ name, title, price, rate, image }) {
+function Product({ id, name, title, price, rate, image }) {
   return (
     <div className='product '>
       <p className='product_name'>{name} </p>
@@ -19,8 +19,8 @@ function Product({ name, title, price, rate, image }) {
             </p>
           ))}
       </div>
-      <img src={image} alt='' />
-      <button className='product_button'>go to basket</button>
+      <img src={image} alt={name} />
+      <button className='product_button'>add to basket</button>
     </div>
   )
 }
