@@ -9,6 +9,9 @@
   border: 1px solid lightcoral;
   border-radius: 3px;
   margin-left: 10px;
+  position: sticky;
+  top: 0;
+  
 }
 .subtotal-button {
   margin-top: 10px;
