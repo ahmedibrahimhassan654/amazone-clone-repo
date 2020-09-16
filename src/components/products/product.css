@@ -1,55 +1,60 @@
 .product {
-    display: flex;
-    flex-direction: column;
-    background-color: white;
-    justify-content: center;
-    align-items: center;
-    margin: 10px;
-    padding: 20px;
-    width: 100%;
-    max-height: 400px;
-    min-width: 100px;
+  display: flex;
+  flex-direction: column;
+  mask-image: linear-gradient(to bottom, rgba(112, 31, 31, 0.555));
+  justify-content: center;
+  align-items: center;
+  margin: 10px;
+  padding: 20px;
+  width: 100%;
+  max-height: 400px;
+  min-width: 100px;
+  border: 3px solid gold;
+  border-radius: 25px;
 }
 
-.product>img {
-    max-height: 200px;
-    width: 100;
-    object-fit: contain;
-    margin-bottom: 10px;
+.product > img {
+  max-height: 200px;
+  width: 100;
+  object-fit: contain;
+  margin-bottom: 10px;
 }
 
 .product_name {
-    float: left;
-    color: yellowgreen;
+  float: left;
+  color: yellowgreen;
 }
 
 .product_info {
-    width: 100%;
-    height: 100px;
-    margin-bottom: 15px;
-    text-align: left;
-    float: left;
-
+  width: 100%;
+  height: 100px;
+  margin-bottom: 15px;
+  text-align: left;
+  float: left;
+  color: blueviolet;
 }
 
 .product_price {
-    margin-top: 5px;
+  margin-top: 5px;
+  width: 100;
 }
 
 .product_button {
-    background: gold;
-    border: 5px solid black;
-    border-radius: 25%;
- 
-    margin-top: 10px;
-    border-color: lemonchiffon;
-    color: indigo;
-    height: fit-content
+  background: hotpink;
+  border: 5px solid black;
+  border-radius: 20%;
+
+  margin-top: 10px;
+  border-color: lemonchiffon;
+  color: black;
+  height: 100px;
+  font-size: 20px;
+  font-style: oblique;
 }
 
 .rate_product {
-    display: flex;
-    color: hotpink;
-    z-index: 1;
-
+  display: flex;
+  color: hotpink;
+  z-index: 1;
+  margin-bottom: 10px;
 }

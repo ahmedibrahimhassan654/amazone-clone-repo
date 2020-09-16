@@ -2,6 +2,8 @@ import React from "react";
 import StarBorderIcon from "@material-ui/icons/StarBorder";
 import "./product.css";
 import { useStateValue } from "../../StateProvider";
+
+
 function Product({ id, name, title, price, rate, image }) {
   const [{ basket }, dispatch] = useStateValue();
 
