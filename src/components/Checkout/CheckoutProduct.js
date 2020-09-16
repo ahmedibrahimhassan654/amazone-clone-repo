@@ -1,7 +1,17 @@
 import React from "react";
 import StarBorderIcon from "@material-ui/icons/StarBorder";
 import "./CheckoutProduct.css";
+import { useStateValue } from "../../StateProvider";
 function CheckoutProduct({ id, name, title, price, rate, image }) {
+  const [, dispatch] = useStateValue();
+
+  const removeFromBasket = () => {
+    dispatch({
+      type: "REMOVE_FROM_BaSKET",
+      id,
+    });
+  };
+
   return (
     <div className="checkoutProducr">
       <img src={image} alt={name} />
@@ -21,7 +31,7 @@ function CheckoutProduct({ id, name, title, price, rate, image }) {
               </p>
             ))}
         </div>
-        <button>Remove from basket </button>
+        <button onClick={removeFromBasket}>Remove from basket </button>
       </div>
     </div>
   );
