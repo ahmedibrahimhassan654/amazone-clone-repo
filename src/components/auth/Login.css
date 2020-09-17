@@ -78,7 +78,9 @@
 .loginContainer > p {
   font-size: larger;
   float: right;
-  color: rgb(255, 0, 140);
+  color: goldenrod;
   display: grid;
   justify-content: center;
+  padding: 20px;
+  
 }

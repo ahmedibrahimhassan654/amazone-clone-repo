@@ -3,7 +3,7 @@ import "./Login.css";
 import { Link } from "react-router-dom";
 function Login() {
   return (
-    <div className="login">
+    <div className="login" >
       <Link to="/">
         <img
         className="login_logo"
@@ -23,7 +23,7 @@ function Login() {
           <input type="password" placeholder="Passw0rd" />
           <button className="loginSignIn"> Sign In</button>
         </form>
-        <p>
+        <p dir="rtl">
           تتاساههسنكتتنكستتينكتسىيكخاوةءنتت
           نتينينتبكنيستسنتينتبيهعبنتلانستبنتسلالاتيبنتيىن تبسنتتبيتنا
           لاتنيلابنتيلاب نتينتيب نتيبني بنتيابعهاثكخشايش ختىت
