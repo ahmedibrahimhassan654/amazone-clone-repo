@@ -1,5 +1,6 @@
 export const initialState = {
   basket: [],
+  user: null,
 };
 export const calculateSum = (basket) => {
   return basket?.reduce((price, item) => item.price + price, 0);
@@ -33,7 +34,13 @@ const reducer = (state, action) => {
         ...state,
         basket: newBasket,
       };
-     
+//register new user
+    case "SETUSER":
+      return {
+        ...state,
+        user: action.user,
+      };
+
     default:
       return state;
   }
