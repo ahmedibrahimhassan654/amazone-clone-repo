@@ -29,9 +29,9 @@ function Header() {
         <SearchIcon className="header_searchIcon" />
       </div>
       <div className="header_nav">
-        <Link to={!user&&"/login"}>
+        <Link to={!user && "/login"}>
           <div onClick={handleAuth} className="header_navoption">
-            <span className="headeroptionone">welcome guest</span>
+            <span className="headeroptionone">welcome {user?.email}</span>
             <span className="headeroptiontwo">
               {user ? "sign out" : "sign in"}
             </span>
